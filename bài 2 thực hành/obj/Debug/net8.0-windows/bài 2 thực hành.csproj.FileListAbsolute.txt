@@ -1,0 +1,16 @@
+D:\code\C#\bài tập thực hành\bài 2 thực hành\bin\Debug\net8.0-windows\bài 2 thực hành.exe
+D:\code\C#\bài tập thực hành\bài 2 thực hành\bin\Debug\net8.0-windows\bài 2 thực hành.deps.json
+D:\code\C#\bài tập thực hành\bài 2 thực hành\bin\Debug\net8.0-windows\bài 2 thực hành.runtimeconfig.json
+D:\code\C#\bài tập thực hành\bài 2 thực hành\bin\Debug\net8.0-windows\bài 2 thực hành.dll
+D:\code\C#\bài tập thực hành\bài 2 thực hành\bin\Debug\net8.0-windows\bài 2 thực hành.pdb
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài_2_thực_hành.Form1.resources
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài 2 thực hành.csproj.GenerateResource.cache
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài 2 thực hành.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài 2 thực hành.AssemblyInfoInputs.cache
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài 2 thực hành.AssemblyInfo.cs
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài 2 thực hành.csproj.CoreCompileInputs.cache
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài 2 thực hành.dll
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\refint\bài 2 thực hành.dll
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài 2 thực hành.pdb
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\bài 2 thực hành.genruntimeconfig.cache
+D:\code\C#\bài tập thực hành\bài 2 thực hành\obj\Debug\net8.0-windows\ref\bài 2 thực hành.dll
