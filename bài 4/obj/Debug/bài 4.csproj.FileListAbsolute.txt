@@ -1,0 +1,10 @@
+D:\code\C#\bài tập thực hành\bài 4\bin\Debug\bài 4.exe.config
+D:\code\C#\bài tập thực hành\bài 4\bin\Debug\bài 4.exe
+D:\code\C#\bài tập thực hành\bài 4\bin\Debug\bài 4.pdb
+D:\code\C#\bài tập thực hành\bài 4\obj\Debug\bài 4.csproj.AssemblyReference.cache
+D:\code\C#\bài tập thực hành\bài 4\obj\Debug\bài_4.Form1.resources
+D:\code\C#\bài tập thực hành\bài 4\obj\Debug\bài_4.Properties.Resources.resources
+D:\code\C#\bài tập thực hành\bài 4\obj\Debug\bài 4.csproj.GenerateResource.cache
+D:\code\C#\bài tập thực hành\bài 4\obj\Debug\bài 4.csproj.CoreCompileInputs.cache
+D:\code\C#\bài tập thực hành\bài 4\obj\Debug\bài 4.exe
+D:\code\C#\bài tập thực hành\bài 4\obj\Debug\bài 4.pdb
