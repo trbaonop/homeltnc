@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
 using System.Windows.Forms;
 using MultipleChoise.Entity;
 using MultipleChoise.BUS;
@@ -9,7 +8,7 @@ namespace MultipleChoise.Views
 {
     public partial class FrmManagerQuestion : Form
     {
-        IQuestionBusiness questionBusiness = new QuestionBusiness();
+        IQuestionBusiness questionBusiness = new QuestionBus();
         private string oldTitle = "";
 
         public FrmManagerQuestion()
@@ -44,8 +43,9 @@ namespace MultipleChoise.Views
 
         private Question CreateQuestion()
         {
-            Question question = new Question()
+            return new Question()
             {
+                Id = Guid.NewGuid().ToString(),
                 Title = txtTitle.Text.Trim(),
                 Answer1 = txtAnswer1.Text.Trim(),
                 Answer2 = txtAnswer2.Text.Trim(),
@@ -55,12 +55,12 @@ namespace MultipleChoise.Views
                          rdoA2.Checked ? txtAnswer2.Text :
                          rdoA3.Checked ? txtAnswer3.Text : txtAnswer4.Text
             };
-            return question;
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
             Question question = CreateQuestion();
+            question.Id = ""; // Không đổi ID khi edit
 
             try
             {
@@ -72,6 +72,17 @@ namespace MultipleChoise.Views
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            Question q = CreateQuestion();
+            if (questionBusiness.AddQuestion(q))
+            {
+                dgvQuestion.DataSource = null;
+                dgvQuestion.DataSource = questionBusiness.GetAllQuestions();
+                MessageBox.Show("Added successfully!");
             }
         }
     }
