@@ -20,6 +20,7 @@ namespace MultipleChoise.BUS
         {
             try
             {
+                // Chuẩn hóa dữ liệu
                 var question = new Question()
                 {
                     Id = q.Id?.Trim(),
@@ -37,6 +38,14 @@ namespace MultipleChoise.BUS
                     string.IsNullOrEmpty(question.Result))
                 {
                     MessageBox.Show("All fields are required.");
+                    return false;
+                }
+
+                // Kiểm tra trùng ID hoặc Title
+                var existed = questionDAO.GetQuestionByTitle(question.Title);
+                if (existed != null)
+                {
+                    MessageBox.Show("This question already exists!");
                     return false;
                 }
 
@@ -58,9 +67,11 @@ namespace MultipleChoise.BUS
 
         public bool EditQuestion(string oldTitle, Question question)
         {
-            Question existing = questionDAO.GetQuestionByTitle(question.Title);
-            if (existing != null && oldTitle != question.Title)
+            var existed = questionDAO.GetQuestionByTitle(question.Title);
+            if (existed != null && oldTitle != question.Title)
+            {
                 throw new Exception("Question title already exists.");
+            }
 
             questionDAO.EditQuestion(oldTitle, question);
             questionDAO.SaveToFile();
