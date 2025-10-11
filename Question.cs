@@ -1,4 +1,4 @@
-﻿namespace MultipleChoise.Entity
+namespace MultipleChoise.Entity
 {
     public class Question
     {
